@@ -12,7 +12,7 @@ test.beforeEach(async ({ page, user }) => {
   locators = new Locators(page);
   loginPage = new LoginPage(page, locators);
   
-  // Now you just pass user.email / user.password without importing USERS
+  // Authenticating using credentials from user fixture
   await loginPage.login(user.email, user.password);
 
   // Validate that the main page loaded successfully with a 200 OK status before proceeding
