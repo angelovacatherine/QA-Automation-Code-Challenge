@@ -15,6 +15,7 @@ The framework is structured using the **Page Object Model (POM)** design pattern
 
 1. **Navigate to the test automation directory**:
    ```bash
+   git clone https://github.com/angelovacatherine/QA-Automation-Code-Challenge.git
    cd QA-Automation-Code-Challenge
    ```
 
