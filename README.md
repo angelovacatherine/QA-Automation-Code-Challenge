@@ -15,7 +15,7 @@ The framework is structured using the **Page Object Model (POM)** design pattern
 
 1. **Navigate to the test automation directory**:
    ```bash
-   cd test-website
+   cd QA-Automation-Code-Challenge
    ```
 
 2. **Install Node dependencies**:
